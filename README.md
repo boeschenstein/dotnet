@@ -3,10 +3,10 @@
 - <https://github.com/boeschenstein/dotnet8>
 - <https://github.com/boeschenstein/dotnet6>
 - <https://github.com/boeschenstein/dotnet5>
-
-## C#
-
-<https://github.com/boeschenstein/csharp>
+-  C# vs .NET
+  - C# = Language, .NET = Runtime <https://www.linkedin.com/pulse/understanding-difference-between-net-c-enfixo>
+  - Comparison <https://positiwise.com/blog/difference-between-c-sharp-and-net>
+  - C# <https://github.com/boeschenstein/csharp>
 
 ## Language independence and language-independent components, CLS
 
