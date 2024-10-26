@@ -1,5 +1,6 @@
 # .NET
 
+- <https://github.com/boeschenstein/dotnet9>
 - <https://github.com/boeschenstein/dotnet8>
 - <https://github.com/boeschenstein/dotnet6>
 - <https://github.com/boeschenstein/dotnet5>
