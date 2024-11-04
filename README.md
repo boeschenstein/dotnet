@@ -21,6 +21,21 @@
 - <https://www.freecodecamp.org/news/statement-vs-expression-whats-the-difference-in-programming/>
 - <https://stackoverflow.com/questions/19132/expression-versus-statement>
 
+### Delete bin, obj, .vs folders
+
+Add this to the end of your *.csproj files:
+
+```xml
+	<Target Name="SpicNSpan"  AfterTargets="Clean">
+		<!-- Remove obj folder -->
+		<RemoveDir Directories="$(BaseIntermediateOutputPath)" />
+		<!-- Remove bin folder -->
+		<RemoveDir Directories="$(BaseOutputPath)" />
+		<!-- .vs -->
+		<RemoveDir Directories="$(SolutionDir).vs" />
+	</Target>
+```
+
 ## Docs
 
 - Fundamentals <https://learn.microsoft.com/en-us/dotnet/fundamentals/>
