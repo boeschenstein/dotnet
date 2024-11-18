@@ -36,6 +36,20 @@ Add this to the end of your *.csproj files:
 	</Target>
 ```
 
+## Console
+
+```cs
+dotnet --list-sdks
+dotnet --list-runtimes
+```
+
+Show all packages
+
+```cs
+dotnet list package
+dotnet list package --include-transitive
+```
+
 ## Docs
 
 - Fundamentals <https://learn.microsoft.com/en-us/dotnet/fundamentals/>
