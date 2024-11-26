@@ -8,6 +8,7 @@
   - C# = Language, .NET = Runtime <https://www.linkedin.com/pulse/understanding-difference-between-net-c-enfixo>
   - Comparison <https://positiwise.com/blog/difference-between-c-sharp-and-net>
   - C# <https://github.com/boeschenstein/csharp>
+- nuget packages <https://github.com/boeschenstein/nuget>
 
 ## Language independence and language-independent components, CLS
 
@@ -41,13 +42,6 @@ Add this to the end of your *.csproj files:
 ```cs
 dotnet --list-sdks
 dotnet --list-runtimes
-```
-
-Show all packages
-
-```cs
-dotnet list package
-dotnet list package --include-transitive
 ```
 
 ## Docs
