@@ -27,14 +27,14 @@
 Add this to the end of your *.csproj files:
 
 ```xml
-	<Target Name="SpicNSpan"  AfterTargets="Clean">
-		<!-- Remove obj folder -->
-		<RemoveDir Directories="$(BaseIntermediateOutputPath)" />
-		<!-- Remove bin folder -->
-		<RemoveDir Directories="$(BaseOutputPath)" />
-		<!-- .vs -->
-		<RemoveDir Directories="$(SolutionDir).vs" />
-	</Target>
+<Target Name="SpicNSpan"  AfterTargets="Clean">
+	<!-- Remove obj folder -->
+	<RemoveDir Directories="$(BaseIntermediateOutputPath)" />
+	<!-- Remove bin folder -->
+	<RemoveDir Directories="$(BaseOutputPath)" />
+	<!-- .vs -->
+	<RemoveDir Directories="$(SolutionDir).vs" />
+</Target>
 ```
 
 ## Console
@@ -56,3 +56,5 @@ dotnet --list-runtimes
   - `Design Guidelines for Exceptions`: Describes design guidelines for designing, throwing, and catching exceptions.
   - `Usage Guidelines`: Describes guidelines for using common types such as arrays, attributes, and collections, supporting serialization, and overloading equality operators.
   - `Common Design Patterns`: Provides guidelines for choosing and implementing dependency properties and the dispose pattern.
+- .NET 10 <https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-10/overview>
+  
