@@ -10,6 +10,10 @@
   - C# <https://github.com/boeschenstein/csharp>
 - nuget packages <https://github.com/boeschenstein/nuget>
 
+## .NET Core 3: Channel (pub/sub)
+
+<https://medium.com/@anderson.buenogod/advanced-implementations-of-the-producer-consumer-pattern-with-channel-t-in-net-28aa94304561>
+
 ## Language independence and language-independent components, CLS
 
 - <https://github.com/dotnet/runtime/tree/main/src/libraries>
